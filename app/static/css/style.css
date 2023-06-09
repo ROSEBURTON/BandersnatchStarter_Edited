@@ -3,7 +3,7 @@ body {
 }
 
 p {
-    font-family: Monaco, sans-serif;
+    font-family: Chalkduster, sans-serif;
     font-size: 0.9em;
     margin: 20px 100px;
     line-height: 1.5em;
@@ -11,7 +11,7 @@ p {
 }
 
 a, a:link, a:visited {
-    font-family: Monaco, sans-serif;
+    font-family: Chalkduster, sans-serif;
     cursor: pointer;
     text-decoration: underline;
 }
@@ -37,7 +37,7 @@ nav a:hover {
 
 h1, h2, h3, h4, h5 {
     margin: 20px 100px;
-    font-family: Monaco, sans-serif;
+    font-family: Chalkduster, sans-serif;
     line-height: 1.55em;
 }
 
@@ -66,9 +66,9 @@ header h1 {
     margin: 40px 60px;
     white-space: nowrap;
 }
-
+/*The Top of the page text*/
 header h1 a:link, header h1 a:active, header h1 a:visited, header h1 a:hover {
-    font-family: Arial, sans-serif;
+    font-family: Chalkduster, sans-serif;
     text-decoration: none;
 }
 
@@ -80,7 +80,7 @@ blockquote {
 
 blockquote p {
     font-size: 1em;
-    font-family: Monaco, sans-serif;
+    font-family: "Lucida Handwriting", cursive;
     margin: 0 0 1.4em;
 }
 
@@ -117,7 +117,7 @@ article ol {
 }
 
 article li {
-    font-family: Monaco, sans-serif;
+    font-family: "Dancing Script", cursive;
     font-size: 1em;
     margin: 3px 120px;
 }

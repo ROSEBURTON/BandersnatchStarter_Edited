@@ -1,7 +1,12 @@
 {% extends "layout.html" %}
 {% block content %}
-    <h1>Bloom Institute of Technology</h1>
-    <h2>Bandersnatch {{ sprint }}</h2>
+<img src="https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2013/12/3-paranormal-activity-the-marked-ones.jpg" alt="Image description" width="200">
+<h1>Bloom Institute of Technology</h1>
+<h3>Ticket Directions: <a href="http://github.com/BloomTech-Labs/BandersnatchStarter/blob/main/tickets/firstTicket.md" target="_blank">http://github.com/BloomTech-Labs/BandersnatchStarter/blob/main/tickets/firstTicket.md</a></h3>
+<h3>Compare with website: <a href="https://bandersnatch.herokuapp.com" target="_blank">https://bandersnatch.herokuapp.com</a></h3>
+<h3>Submit Loom: <a href="https://bloomtech.tfaforms.net/274" target="_blank">https://bloomtech.tfaforms.net/274</a></h3>
+
+<h2>Project {{ sprint }}</h2>
     <p>Proof of Local Setup: {{ password.decode() }}</p>
     <h3>Data Science Team</h3>
     <ul>
@@ -21,7 +26,7 @@
         <li>Graphs: Altair</li>
         <li>Machine Learning: Scikit</li>
     </ul>
-    <h4>Example Monster</h4>
+    <h4>Randomized Paranormal Entity</h4>
     <ul>
         {% for k, v in monster.items() %}
             <li>{{ k }}: {{ v }}</li>
